@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#e569d8, #d469e5);
+}
+.card{
+    width: 20rem;
+    padding: 2rem;
+    background: #bb49e1;
+    color: #eee4e4;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(59, 52, 52, 0.3);
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.gap{
+    gap: 1rem;
+}
+.profile-pic{
+    width: 70px;
+    border-radius: 60px;
+    border: 0.25rem solid #ffffff;
+}
+.icons{
+    gap: 0.25rem;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    background: #eee4e4;
+    border-radius: 50%;
+}
+.job-position{
+    font-size: 1.025em;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.125rem;
+    font-weight: 200;
+}
+.name{
+    font-size: 1.5em;
+}

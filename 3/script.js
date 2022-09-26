@@ -19,11 +19,11 @@ function findMaxAge(array){
 }
 function sortingArrayByAge(array){
     let temp = [];
-    let max = array[0]
+    let max = array[0];
     while (array[0]){
         max = findMaxAge(array);
-        array.splice(array.indexOf(max),1)
-        temp.push(max)
+        array.splice(array.indexOf(max),1);
+        temp.push(max);
     }
     return temp
 }

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.background-pic{
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("pic/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: contrast(150%) grayscale(1) brightness(2);
+}
+.login-form{
+    color: #dad6d6;
+    padding: 2rem 2rem 1rem 2rem;
+    background: linear-gradient(#594fe5, #902ce0);
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.text-inp{
+    padding: 0.25rem 0.1rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #dad6d6;
+    color: #dad6d6;
+}
+.text-inp::placeholder{
+    color: #dad6d6;
+}
+.btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    border: none;
+    color: #7d2ce0;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.profile-pic{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #eee4e4;
+}
+.log-in-text{
+    font-weight: bold;
+}
+.login-check{
+    margin: 0.5rem 0;
+    font-size: 0.8em;
+    align-self: flex-start;
+}
+.login-check > input{
+    cursor: pointer;
+}
+.forgot-link{
+    color: #dad6d6;
+    text-decoration: none;
+    font-size: 0.7em;
+    margin: 1rem 0 0 0;
+}
